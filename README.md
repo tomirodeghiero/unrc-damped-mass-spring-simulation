@@ -8,8 +8,8 @@ This program simulates the vertical motion of a mass attached to a spring with l
 
 Two plots are generated:
 
-- `comparacion_metodos.png`: Position vs Time
-- `diagrama_fase.png`: Velocity vs Position (Phase Diagram)
+- `comparison_methods.png`: Position vs Time
+- `phase_diagram.png`: Velocity vs Position (Phase Diagram)
 
 ---
 
@@ -72,12 +72,11 @@ python3 main.py
 After the simulation finishes, the following output files will be generated:
 
 - `euler.dat`, `heun.dat`, `rk4.dat` – simulation results for each method
-- `comparacion_metodos.png` – position vs time plot
-- `diagrama_fase.png` – phase diagram (velocity vs position)
+- `comparison_methods.png` – position vs time plot
+- `phase_diagram.png` – phase diagram (velocity vs position)
 
 ---
 
 ## Authors
 
 Developed by **Lingua Matías** and **Tomás Rodeghiero**, students of the B.Sc. in Computer Science program at the National University of Río Cuarto (UNRC), for the **Simulation** course.
-# unrc-damped-mass-spring-simulation

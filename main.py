@@ -21,7 +21,7 @@ np.savetxt("rk4.dat",   np.column_stack((t_rk4,   x_rk4,   v_rk4)),   header="t 
 with open("plot.gnuplot", "w") as f:
     f.write("""
 set terminal png size 1000,600
-set output 'comparacion_metodos.png'
+set output 'comparison_methods.png'
 set title 'Comparación de Métodos Numéricos'
 set xlabel 'Tiempo (s)'
 set ylabel 'Posición (m)'
@@ -35,7 +35,7 @@ plot 'euler.dat' using 1:2 with lines title 'Euler', \
 with open("fase.gnuplot", "w") as f:
     f.write("""
 set terminal png size 1000,600
-set output 'diagrama_fase.png'
+set output 'phase_diagram.png'
 set title 'Diagrama de Fase: Velocidad vs Posición'
 set xlabel 'Posición (m)'
 set ylabel 'Velocidad (m/s)'
