@@ -6,10 +6,12 @@
 
 This program simulates the vertical motion of a mass attached to a spring with linear damping and a stiff elastic stop. You can view between the **Euler**, **Heun**, and **Runge-Kutta 4** methods. The simulation results are saved as `.dat` files and plotted using **Gnuplot**.
 
-Two plots are generated:
+Four plots are generated using Gnuplot:
 
-- `comparison_methods.png`: Position vs Time
-- `phase_diagram.png`: Velocity vs Position (Phase Diagram)
+- `comparison_methods.png`: Position x(t) vs Time plot comparing the Euler, Heun, and RK4 methods.
+- `phase_diagram.png`: Phase diagram showing velocity v(t) vs position x(t).
+- `velocity_over_time.png`: Velocity v(t) vs Time plot for the three numerical methods.
+- `comparison_b_values.png`: Comparison of position evolution for different values of the damping coefficient b.
 
 ---
 

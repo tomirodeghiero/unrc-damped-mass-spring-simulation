@@ -90,3 +90,7 @@ def rk4_method(params):
         v.append(v_new)
 
     return np.array(t), np.array(x), np.array(v)
+
+# Check for final rest condition (RK4 preferred for precision)
+def is_at_rest(x, v):
+    return abs(x[-1]) < 0.001 and abs(v[-1]) < 0.001
